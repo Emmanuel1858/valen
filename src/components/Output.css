@@ -1,0 +1,55 @@
+.valContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f5;
+    height: 100vh;
+}
+
+.noButton{
+    background-color: red;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+
+}
+
+.yesButton{
+    background-color: green;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.buttonContainer{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+.img{
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .buttonContainer{
+        flex-direction: column;
+    }
+    .noButton{
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
