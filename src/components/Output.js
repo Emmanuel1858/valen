@@ -10,7 +10,7 @@ const Output = () => {
     'Accept na 🥺',
     'Are you sure?',
     'Really sure',
-    'Ohita na 🥺',
+    'babe na 🥺',
     'You know I love you 🥺',
     'Please my baby 🥺',
     `Don't do this to me`,
@@ -48,7 +48,7 @@ const Output = () => {
             (
               <>
                 <img className='img' src='https://media.tenor.com/EQ1XagNtbr8AAAAM/love-you-forever.gif' alt='bear asking' />
-                <h3>Will you be my Valentine?</h3>
+                <h3>Do you love me?</h3>
                 <div className='buttonContainer' >
                   <button
                     className='yesButton'
